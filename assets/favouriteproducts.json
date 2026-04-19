@@ -1,0 +1,22 @@
+[
+  {
+    "image": "assets/burger.png",
+    "title": "Burger",
+    "color": "#F55540"
+  },
+  {
+    "image": "assets/chicken.png",
+    "title": "Chicken",
+    "color": "#FCCAC4"
+  },
+  {
+    "image": "assets/sea-food.png",
+    "title": "Sea Food",
+    "color": "#00A991"
+  },
+  {
+    "image": "assets/meat.png",
+    "title": "Meat",
+    "color": "#B0E4DD"
+  }
+]

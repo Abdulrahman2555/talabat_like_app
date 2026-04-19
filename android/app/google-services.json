@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "771761409760",
+    "project_id": "talabat-like-app",
+    "storage_bucket": "talabat-like-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771761409760:android:04436a228dc1edc4168a85",
+        "android_client_info": {
+          "package_name": "com.example.task1_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3HW0CfscgFFu5Lxh1tJpNcHy_jqlsUB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
