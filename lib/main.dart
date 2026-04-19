@@ -10,12 +10,18 @@ import 'package:flutter_bloc/flutter_bloc.dart'
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:talabat_like_app/features/order/view/myordersscreen.dart';
-
+// Import the generated file
+import 'firebase_options.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:talabat_like_app/features/product_details/controler/product_cubit.dart';
 import 'package:talabat_like_app/widgets/route_screen.dart';
 import 'package:talabat_like_app/widgets/widgets/task6.dart';
 
-void main() {
+void main() async{
+  // WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+  options: DefaultFirebaseOptions.currentPlatform,
+);
   runApp(
     MultiBlocProvider(
       providers: [
