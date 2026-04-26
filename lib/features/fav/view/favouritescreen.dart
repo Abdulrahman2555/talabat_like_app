@@ -25,8 +25,8 @@ class _FavouritescreenState extends State<Favouritescreen> {
       listener: (context, state) {},
       builder: (context, state) {
         final favcubit = context.watch<favproductsCubit>();
-        print("🔵 STATE: $state");
-        print("🔵 FAVOURITES: ${favcubit.favourites}");
+        // print("🔵 STATE: $state");
+        // print("🔵 FAVOURITES: ${favcubit.favourites}");
         if (state is favproductsloading || state is favproductsinitial) {
           return Scaffold(body: Center(child: CircularProgressIndicator()));
         }

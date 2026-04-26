@@ -96,9 +96,9 @@ class ProductCubit extends Cubit<ProductState> {
     price = 12.0;
     total = 12.0;
     additions = [
-      {"title": "سلطة", "price": 5.5, "isChecked": false},
-      {"title": "كاتشب", "price": 3.2, "isChecked": false},
-      {"title": "بيبسي", "price": 7.8, "isChecked": false},
+      {"title": "Salad", "price": 5.5, "isChecked": false},
+      {"title": "Ketchub", "price": 3.2, "isChecked": false},
+      {"title": "Pepsi", "price": 7.8, "isChecked": false},
     ];
     emit(ProductInitial());
   }

@@ -2,10 +2,11 @@ import 'package:talabat_like_app/features/fav/view/favouritescreen.dart';
 import 'package:flutter/material.dart';
 import 'package:talabat_like_app/features/home/view/homescreen.dart';
 import 'package:talabat_like_app/features/order/view/myordersscreen.dart';
-import 'package:talabat_like_app/features/product_details/view/product_details.dart';
+// import 'package:talabat_like_app/features/product_details/view/product_details.dart';
 // import 'package:talabat_like_app/features/favourite_screen/view/favouritescreen.dart';
 // import 'package:talabat_like_app/features/product_details/view/product_details.dart';
 import 'package:talabat_like_app/features/profile/view/profilescreen.dart';
+import 'package:talabat_like_app/features/tracking/widgets/tracking2.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -132,7 +133,11 @@ class CustomFAB extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FloatingActionButton(
-      onPressed: () {},
+      onPressed: () {
+        Navigator.of(
+          context,
+        ).push(MaterialPageRoute(builder: (context) => OrderTrackingScreen()));
+      },
       backgroundColor: const Color(0xFFF55540),
       shape: const CircleBorder(),
       elevation: 8,
